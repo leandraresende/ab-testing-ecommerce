@@ -10,7 +10,7 @@ TESTE A/B - ELECTRONIC HOUSE
 ================================================
 Projeto: Validação Estatística de Nova Página de Vendas  
 Produto: Teclado Bluetooth (R$ 4.500)  
-Data: Fevereiro/Março 2025  
+Data: Fevereiro/Março 2026  
 Dataset: Kaggle  
 ================================================
 
@@ -145,12 +145,12 @@ O conjunto de dados está disponível na plataforma do Kaggle, através desse li
 - Não assume normalidade
 - Requer amostras grandes
 
-**Cálculo de Conversões:**
-Conversão_controle = 545 / 4720 = 11.55%
-Conversão_tratamento = 609 / 4720 = 12.90%
+**Cálculo de Conversões:**  
+Conversão_controle = 545 / 4720 = 11.55%  
+Conversão_tratamento = 609 / 4720 = 12.90%  
 
-**Resultado do Teste:**
-P-valor = 0.0806
+**Resultado do Teste:**  
+P-valor = 0.0806  
 
 **Interpretação:**
 - P-valor (0.0806) > α (0.05)
