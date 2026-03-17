@@ -2,29 +2,28 @@
 ![Scipy](https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-4B8BBE?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?logo=numpy&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-3776AB?style=flat&logo=python&logoColor=white&size=40x40)
-![Matplotlib](![Matplotlib](https://shields.io)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 TESTE A/B - ELECTRONIC HOUSE
 ================================================
-Projeto: Validação Estatística de Nova Página de Vendas
-Produto: Teclado Bluetooth (R$ 4.500)
-Data: Fevereiro/Março 2025
-Dataset: Kaggle
+Projeto: Validação Estatística de Nova Página de Vendas  
+Produto: Teclado Bluetooth (R$ 4.500)  
+Data: Fevereiro/Março 2025  
+Dataset: Kaggle  
 ================================================
 
 ## Índice
 
 - [Objetivo do Projeto](#-objetivo-do-projeto)
 - [Resultados Principais](#-resultados-principais)
-- [Contexto de Negócio](#-contexto-de-negócio)
+- [Contexto de Negócio](#-contexto-de-negocio)
 - [Metodologia](#-metodologia)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Análise Estatística](#-análise-estatística)
-- [Insights e Recomendações](#-insights-e-recomendações)
-- [Visualizações Gráficas](#-visualizações-gráficas)
+- [Análise Estatística](#-analise-estatistica)
+- [Insights e Recomendações](#-insights-e-recomendacoes)
+- [Visualizações Gráficas](#-visualizacoes-graficas)
 - [Aprendizados do Projeto](#-aprendizados-do-projeto)
 
 ---
@@ -83,19 +82,22 @@ A nova página desenvolvida pelo time de UX **não atingiu a meta de 15%**, bem 
 
 **Recomendação:** **NÃO implementar** a nova página. Realizar pesquisa qualitativa com usuários para identificar pontos de fricção antes de novo teste.
 
-![Comparação das conversões](../images/conversion_comparison.png)
-![Teste estatístico](../images/statistical_test.png)
-![Potencial de faturamento](../images/revenue_potential.png)
+![Comparação das conversões](images/conversion_comparison.png)
+![Teste estatístico](images/statistical_test.png)
+![Potencial de faturamento](images/revenue_potential.png)
 
 ---
 ## Contexto de negócio:
-    A Electronic House é um e-commerce de produtos de informática para casas e escritórios, vendendo periféricos (mouses, teclados, webcams), monitores e acessórios, computadores e laptops, cabos e conectores.
-    O time de UX designers vem trabalhando em uma nova página de vendas para um teclado bluetooth (preço de venda de R$4.500,00), com o objetivo de aumentar a taxa de conversão histórica de 13% para 15%.
-    Os entregáveis do trabalho são os seguintes:
-    1. A conversão da nova página é realmente melhor do a conversão da página atual?
-    2. Qual o potencial de número de vendas que a nova página pode trazer?
-    3. Qual o faturamento total na venda do teclado bluetooth através da nova página?
-    O conjunto de dados está disponível na plataforma do Kaggle, através desse link: https://www.kaggle.com/datasets/zhangluyuan/ab-testing?select=ab_data.csv 
+A Electronic House é um e-commerce de produtos de informática para casas e escritórios, vendendo periféricos (mouses, teclados, webcams), monitores e acessórios, computadores e laptops, cabos e conectores.  
+
+O time de UX designers vem trabalhando em uma nova página de vendas para um teclado bluetooth (preço de venda de R$4.500,00), com o objetivo de aumentar a taxa de conversão histórica de 13% para 15%.  
+
+Os entregáveis do trabalho são os seguintes:  
+    1. A conversão da nova página é realmente melhor do a conversão da página atual?  
+    2. Qual o potencial de número de vendas que a nova página pode trazer?  
+    3. Qual o faturamento total na venda do teclado bluetooth através da nova página?  
+    
+O conjunto de dados está disponível na plataforma do Kaggle, através desse link: https://www.kaggle.com/datasets/zhangluyuan/ab-testing?select=ab_data.csv 
 
 ---
 ## Metodologia
@@ -159,39 +161,39 @@ P-valor = 0.0806
 
 **Projeção de Vendas:**
 
-# Cenário atual (baseline 13%)
+- Cenário atual (baseline 13%)  
 vendas_atuais = total_usuarios * 0.13 = 37.271 unidades
 
-# Cenário meta (15%)
+- Cenário meta (15%)  
 vendas_meta = total_usuarios * 0.15 = 43.004 unidades
 
-# Aumento potencial
-delta = 5.733 unidades
+- Aumento potencial  
+delta = 5.733 unidades  
 lift = 15.38%
 
 **Projeção de Faturamento:**
 
-# Preço unitário
+- Preço unitário  
 preco = R$ 4.500
 
-# Faturamento atual
+- Faturamento atual  
 fat_atual = 37.271 * 4.500 = R$ 167.719.500
 
-# Faturamento meta
+- Faturamento meta  
 fat_meta = 43.004 * 4.500 = R$ 193.518.000
 
-# Receita incremental potencial
+- Receita incremental potencial  
 delta_receita = R$ 25.798.500
 
 ---
 ## Tecnologias Utilizadas
 
-- Python 3.9+
-- Jupyter Notebook
-- Manipulação dos dados: Pandas e Numpy
-- SciPy - Chi-Squared Test, testes de hipóteses
-- Statsmodels - Tamanho das amostras, testes estatísticos
-- Visualização: Matplotlib e Seaborn
+- **Python 3.12**
+- **Jupyter Notebook**
+- **Pandas e Numpy:** manipulação dos dados
+- **SciPy** - Chi-Squared Test, testes de hipóteses
+- **Statsmodels** - tamanho das amostras, testes estatísticos
+- **Matplotlib e Seaborn:** visualização
 
 ---
 ## Análise Estatística Detalhada
@@ -259,19 +261,19 @@ Tamanho amostral: n=4.720 por grupo
 ## Visualizações gráficas 
 
 ### Taxa de Conversão: Controle vs Tratamento
-![Comparação das conversões](../images/conversion_comparison.png)
+![Comparação das conversões](images/conversion_comparison.png)
 *Comparação das taxas de conversão observadas vs meta estabelecida*
 
 ### Funil de Conversão por Grupo
-![Funil de conversão](../images/conversion_funnel.png)
+![Funil de conversão](images/conversion_funnel.png)
 *Detalhamento do funil desde visitantes até conversões em ambos os grupos*
 
 ### Resultado do Teste Estatístico
-![Teste estatístico](../images/statistical_test.png)
+![Teste estatístico](images/statistical_test.png)
 *P-valor do teste Chi-Squared indicando ausência de significância estatística*
 
 ### Potencial de Faturamento
-![Potencial de faturamento](../images/revenue_potential.png)
+![Potencial de faturamento](images/revenue_potential.png)
 *Projeção de receita em diferentes cenários de conversão*
 
 ---
@@ -293,12 +295,12 @@ Tamanho amostral: n=4.720 por grupo
 
 ### Habilidades Desenvolvidas
 
-✅ Design rigoroso de experimentos A/B
-✅ Testes de hipóteses estatísticas (Chi-Squared)
-✅ Limpeza e validação de dados experimentais
-✅ Cálculo de tamanho amostral
-✅ Tradução de resultados estatísticos para impacto de negócio
-✅ Comunicação de recomendações data-driven
+- Design rigoroso de experimentos A/B
+- Testes de hipóteses estatísticas (Chi-Squared)
+- Limpeza e validação de dados experimentais
+- Cálculo de tamanho amostral
+- Tradução de resultados estatísticos para impacto de negócio
+- Comunicação de recomendações data-driven
 
 
 
