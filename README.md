@@ -17,7 +17,7 @@ Dataset: Kaggle
 ## Índice
 
 - [Objetivo do Projeto](https://github.com/leandraresende/ab-testing-ecommerce?tab=readme-ov-file#objetivo-do-projeto)
-- [Resultados Principais](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#resultados-principais)
+- [Resultados Principais](https://github.com/leandraresende/ab-testing-ecommerce#resultados-principais)
 - [Contexto de Negócio](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#contexto-de-neg%C3%B3cio)
 - [Metodologia](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#metodologia)
 - [Tecnologias Utilizadas](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#tecnologias-utilizadas)
