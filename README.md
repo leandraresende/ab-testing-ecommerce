@@ -18,13 +18,13 @@ Dataset: Kaggle
 
 - [Objetivo do Projeto](https://github.com/leandraresende/ab-testing-ecommerce?tab=readme-ov-file#objetivo-do-projeto)
 - [Resultados Principais](https://github.com/leandraresende/ab-testing-ecommerce#resultados-principais)
-- [Contexto de Negócio](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#contexto-de-neg%C3%B3cio)
-- [Metodologia](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#metodologia)
-- [Tecnologias Utilizadas](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#tecnologias-utilizadas)
-- [Análise Estatística](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#an%C3%A1lise-estat%C3%ADstica-detalhada)
-- [Insights e Recomendações](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#insights-e-recomenda%C3%A7%C3%B5es)
-- [Visualizações Gráficas](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#visualiza%C3%A7%C3%B5es-gr%C3%A1ficas)
-- [Aprendizados do Projeto](https://github.com/leandraresende/ab-testing-ecommerce/edit/main/README.md#aprendizados-do-projeto)
+- [Contexto de Negócio](https://github.com/leandraresende/ab-testing-ecommerce#contexto-de-neg%C3%B3cio)
+- [Metodologia](https://github.com/leandraresende/ab-testing-ecommerce#metodologia)
+- [Tecnologias Utilizadas](https://github.com/leandraresende/ab-testing-ecommerce#tecnologias-utilizadas)
+- [Análise Estatística](https://github.com/leandraresende/ab-testing-ecommerce#an%C3%A1lise-estat%C3%ADstica-detalhada)
+- [Insights e Recomendações](https://github.com/leandraresende/ab-testing-ecommerce#insights-e-recomenda%C3%A7%C3%B5es)
+- [Visualizações Gráficas](https://github.com/leandraresende/ab-testing-ecommerce#visualiza%C3%A7%C3%B5es-gr%C3%A1ficas)
+- [Aprendizados do Projeto](https://github.com/leandraresende/ab-testing-ecommerce#aprendizados-do-projeto)
 
 ---
 ## Objetivo do Projeto
