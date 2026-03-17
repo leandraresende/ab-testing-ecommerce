@@ -1,0 +1,28 @@
+# .gitignore
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+ 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+ 
+# Data files 
+datasets/
+ 
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+ 
+# Models
+*.pkl
+*.h5
+models/
