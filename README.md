@@ -211,7 +211,7 @@ Tamanho amostral: n=4.720 por grupo
 - Conversão baseline (p1): 13%
 - Conversão esperada (p2): 15%
 - Efeito mínimo detectável: 2 pontos percentuais
-- Poder do teste (1-β): 80%
+- Poder estatístico (1-β): 80%
 - Nível de significância (α): 5%
 
 **Resultado:** 4.720 usuários por grupo são suficientes para detectar diferença de 2 pp com 80% de poder.
